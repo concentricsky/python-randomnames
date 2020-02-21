@@ -16,7 +16,7 @@ def random_polite_adjective():
     return random.choice(POLITE_ADJECTIVES).title()
 
 def random_namepair():
-    return u"{} {}".format(random_adjective(), random_noun())
+    return "{} {}".format(random_adjective(), random_noun())
 
 def random_polite_animalpair():
-    return u"{} {}".format(random_polite_adjective(), random_animal())
+    return "{} {}".format(random_polite_adjective(), random_animal())
